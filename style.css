@@ -1,3 +1,4 @@
+/* Estilos geral */
 * {
     margin: 0px;
     padding: 0px;
@@ -81,4 +82,69 @@ header>label {
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 90%;
+    }
+
+    .nav, .nav:hover, .btn, .btn:hover {
+        margin-left: .8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   
+    html {
+        font-size: 80%;
+    }
+
+    header>label {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .menu-nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #FFF;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .1);
+        padding: 1.0rem 1.4rem;
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+    }
+
+    .nav, .nav:hover {
+        display: block;
+        margin: 2rem 0;
+        font-size: 1.8rem;
+    }
+
+    .btn, .btn:hover {
+        display: block;
+        margin: 1rem 0;
+        font-size: 1.8rem;
+    }
+
+    header>input:checked ~ .menu-nav {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    header>input:checked ~ label::before {
+        content: '\f00d';
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 70%;
+    }
 }
