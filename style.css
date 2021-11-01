@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: #FFF;
+}
+
+/* Estilos Header */
+
+header {
+    position:sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FFF;
+    padding: 1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #FF914D;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav {
+    font-size: 1.1rem;
+    margin-left: 2.4rem;
+    color: #FF914D;
+}
+
+.nav:hover{
+    color: #FF914D;
+    padding: 4px 12px;
+    border-bottom: 1px solid #FF914D;
+    cursor: pointer;
+}
+
+.btn {
+    font-size: 1rem;
+    margin-left: 2.4rem;
+    background: #FF914D;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover {
+    font-size: 1rem;
+    margin-left: 2.4rem;
+    background: white;
+    padding: 4px 12px;
+    border-radius: 10px;
+    color: #FF914D;
+    font-weight: bold;
+    border: 1px solid #FF914D;
+    cursor: pointer;
+}
+
+header>input {
+    display: none;
+}
+
+header>label {
+    font-size: 2.4rem;
+    color: #FF914D;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
