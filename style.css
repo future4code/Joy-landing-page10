@@ -84,6 +84,28 @@ header>label {
     opacity: 0;
 }
 
+/* Estilos Section */
+
+.home {
+    min-height: 100vh;
+    padding: 0 9%;
+    background-image: url(img/bg-home.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.content-1 {
+    width: 50rem;
+    margin-bottom: 10em;
+}
+
+.content-1>h3{
+    font-size: 4rem;
+    color: white;
+}
+
 /* Responsividade */
 
 @media screen and (max-width: 1200px) {
