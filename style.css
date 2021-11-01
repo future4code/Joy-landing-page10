@@ -45,7 +45,6 @@ header {
 
 .nav:hover{
     color: #FF914D;
-    padding: 4px 12px;
     border-bottom: 1px solid #FF914D;
     cursor: pointer;
 }
@@ -58,13 +57,14 @@ header {
     border-radius: 10px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .btn:hover {
     font-size: 1rem;
     margin-left: 2.4rem;
     background: white;
-    padding: 4px 12px;
+    padding: 8px 16px;
     border-radius: 10px;
     color: #FF914D;
     font-weight: bold;
