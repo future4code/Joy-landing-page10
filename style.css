@@ -106,6 +106,37 @@ header>label {
     color: white;
 }
 
+/* Estilos Section Serviços */
+
+.servicos {
+    width: 60em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px auto;
+    text-align: start;
+}
+
+.servicos-texto {
+    margin: 0 50px;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.servicos-texto > h4 {
+    color: #FF914D;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.imagem-servicos {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.imagem-pix {
+    align-self: center;
+}
+
 /* Responsividade */
 
 @media screen and (max-width: 1200px) {
