@@ -88,6 +88,7 @@ header>label {
 
 .home {
     min-height: 100vh;
+    width: 100vw;
     padding: 0 9%;
     background-image: url(img/bg-home.png);
     background-size: cover;
