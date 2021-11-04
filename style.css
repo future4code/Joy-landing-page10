@@ -145,6 +145,70 @@ header>label {
     text-shadow: black 0.1rem 0.1rem 0.3rem;
 }
 
+/* Estilos Section App */
+
+.container-app {
+    min-height: 100vh;
+    padding: 3rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-app {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.img-app>img {
+    border-radius: 2.4rem;
+    width: 34rem;
+}
+
+.content-2 {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-2>h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #FF914D;
+    margin-bottom: 2rem;
+}
+
+.content-2>h3{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #FF914D;
+    margin-bottom: 2rem;
+}
+
+.content-2>ul>li {
+    color: #1f1f1f;
+    font-size: 1.2rem;
+    list-style: none;
+    padding: .2rem 0;  
+}
+
+.fa-check {
+    color: lightgreen;
+    margin-right: 1rem;
+}
+
+.content-2>.btn {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+}
+
 /* Estilos Section Serviços */
 
 .servicos {
@@ -178,7 +242,8 @@ header>label {
 
 /* Responsividade */
 
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 1337px) {
     html {
         font-size: 90%;
     }
@@ -186,6 +251,36 @@ header>label {
     .nav, .nav:hover, .btn, .btn:hover {
         margin-left: .8rem;
     }
+
+    .container-app {
+        padding-top: 3%;
+    }
+
+    .img-app>img {
+        border-radius: 2.4rem;
+        width: 30rem;
+    }
+
+    .content-2 {
+        padding: 0 3%;
+    }
+
+    .content-2>h2 {
+        font-size: 2rem;
+    }
+    
+    .content-2>h3 {
+        font-size: 1.2rem;
+    }
+
+    .content-2>ul {
+        padding: 0 3rem;
+    }
+
+    .content-2>ul>li {
+        font-size: 1rem;
+    }
+    
 }
 
 @media screen and (max-width: 900px) {
@@ -247,8 +342,38 @@ header>label {
         align-items: center;
     }
 
-   
-}
+    .container-app {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-flow: column;
+        padding-top: 3%;
+    }
+
+    .img-app>img {
+        border-radius: 2.4rem;
+        width: 50vw;
+    }
+
+     .content-2 {
+        width: 100vw;
+        margin-top: 2rem;
+        object-fit: contain;
+    }
+    
+    .content-2>h2 {
+        font-size: 2.4rem;
+    }
+
+    .content-2>h3 {
+        font-size: 1.2rem;
+    }
+
+    .content-2>ul>li {
+        font-size: 1.2rem;
+    }
+        
+    }
 
 @media screen and (max-width: 450px) {
     html {
@@ -275,4 +400,30 @@ header>label {
     .content-1>h3 {
         font-size: 1.8rem;
     }
+
+    .container-app {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-flow: column;
+        padding-top: 3%;
+    }
+
+    .img-app>img {
+        border-radius: 2.4rem;
+        width: 20rem;
+    }
+
+    .content-2>ul {
+        padding: 0 3rem;
+    }
+
+    .content-2>h3 {
+        font-size: 1.2rem;
+    }
+
+    .content-2>ul>li {
+        font-size: 1.2rem;
+    }
+
 }
