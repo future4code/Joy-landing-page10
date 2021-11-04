@@ -306,11 +306,11 @@ details>div, details>div>p {
 
 details>div>p {
     margin-top: 1rem;
+}
 
 /* Responsividade */
 
-
-@media screen and (max-width: 1337px) {
+@media screen and   (max-width: 1337px) {
     html {
         font-size: 90%;
     }
@@ -479,4 +479,4 @@ details>div>p {
     .content-2>h3, .content-2>ul>li {
         font-size: 1.2rem;
     }
-}
+ }
