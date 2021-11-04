@@ -241,6 +241,72 @@ header>label {
     align-self: center;
 }
 
+/* Estilos Section FAQ */
+
+.container-faq {
+    min-height: 100vh;
+    padding: 0 9%;
+    background-color: #FFF;
+    box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-faq>h2 {
+    width: 100%;
+    padding: 4rem 0;
+    padding-bottom: 0;
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    color: #FF914D;
+    margin-bottom: 6rem;
+    text-transform: uppercase;
+}
+
+
+details {
+    padding: 1rem;
+    border-top: 1px solid #FF914D;
+    transition: all .4s ease-in-out;
+    max-height: 80px;
+}
+
+details[open] {
+    max-height: 600px;
+}
+
+
+details>summary {
+    min-width: 50vw;
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+details>summary>i {
+    margin-left: 1rem;
+}
+
+details[open]>summary {
+    padding-bottom: 1rem;
+}
+
+details[open]>summary>i::before {
+    content: '\f078';
+}
+
+details>div, details>div>p {
+    font-size: 1.2rem;
+}
+
+details>div>p {
+    margin-top: 1rem;
+
 /* Responsividade */
 
 
