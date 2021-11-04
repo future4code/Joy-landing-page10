@@ -247,7 +247,7 @@ header>label {
     min-height: 100vh;
     padding: 0 9%;
     background-color: #FFF;
-    box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     display: flex;
     flex-direction: column;
     align-items: center;
