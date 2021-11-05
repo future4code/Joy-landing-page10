@@ -157,6 +157,7 @@ header>label {
 }
 
 .img-app {
+flex-grow: 1;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -212,6 +213,15 @@ header>label {
 
 /* Estilos Section Serviços */
 
+#servicos {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .servicos {
     width: 60em;
     display: grid;
@@ -244,7 +254,6 @@ header>label {
     min-height: 100vh;
     padding: 0 9%;
     background-color: #FFF;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,8 +261,7 @@ header>label {
 
 .titulo-faq>h2 {
     width: 100%;
-    padding: 4rem 0;
-    padding-bottom: 0;
+    padding-top: 2rem;
     font-size: 4rem;
     font-weight: 500;
     letter-spacing: .2rem;
@@ -267,17 +275,19 @@ details {
     padding: 1rem;
     border-top: 1px solid #FF914D;
     transition: all .4s ease-in-out;
-    max-height: 80px;
+    max-height: 100px;
+    list-style-type: none;
 }
 
 details[open] {
     max-height: 600px;
+    list-style-type: none;
 }
 
 
 details>summary {
     min-width: 50vw;
-    list-style: none;
+    list-style-type: none;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -291,6 +301,7 @@ details>summary>i {
 
 details[open]>summary {
     padding-bottom: 1rem;
+    list-style-type: none;
 }
 
 details[open]>summary>i::before {
@@ -304,9 +315,12 @@ details>div, details>div>p {
 details>div>p {
     margin-top: 1rem;
 }
+
 /* Estilos Sobre Nós */
+
 .container-sobre-nos{
     text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
 .descricao{
@@ -317,6 +331,7 @@ details>div>p {
     padding: 3% 4%;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 4rem;
 }
 
 .texto-sobre-nos h1{
@@ -362,6 +377,7 @@ details>div>p {
 }
 
 /* Estilos Footer */
+
 footer{
     text-align: center;
     background: #FF914D;
@@ -482,7 +498,7 @@ footer{
 
     .img-app>img {
         border-radius: 2.4rem;
-        width: 50vw;
+        width: 60vw;
     }
 
      .content-2 {
@@ -492,11 +508,11 @@ footer{
     }
     
     .content-2>h2 {
-        font-size: 2.4rem;
+        font-size: 2.8rem;
     }
 
     .content-2>h3, .content-2>ul>li {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .servicos {
@@ -555,7 +571,7 @@ footer{
     }
 
     .content-2>h3, .content-2>ul>li {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .servicos {
@@ -566,5 +582,9 @@ footer{
 
     .servicos-texto {
         margin: 20px;
+    }
+
+    .container-faq {
+        padding-bottom: 4rem;
     }
  }
