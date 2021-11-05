@@ -307,6 +307,77 @@ details>div, details>div>p {
 details>div>p {
     margin-top: 1rem;
 }
+/* Estilos Sobre Nós */
+.container-sobre-nos{
+    text-align: center;
+}
+
+.descricao{
+    background-color: #FF914D;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    color: #FFF;
+    padding: 3% 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.texto-sobre-nos h1{
+    width: 100%;
+    padding: 4rem 0;
+    padding-bottom: 0;
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    color: #FF914D;
+    margin-bottom: 6rem;
+    text-transform: uppercase;
+}
+
+.btn-sobre-nos {
+    font-size: 1rem;
+    margin-left: 2.4rem;
+    background: #FFF;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: rgb(7, 7, 7);
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.btn-sobre-nos:hover {
+    font-size: 1rem;
+    margin-left: 2.4rem;
+    background: #FFF;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: #FF914D;
+    font-weight: 500;
+    border: 1px solid #FF914D;
+    cursor: pointer;
+}
+
+.faca-parte{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos Footer */
+footer{
+    text-align: center;
+    background: #FF914D;
+    color: #FFF;
+    padding: 2% 3%;
+    bottom:0;
+    width:100%;
+}
+
+.icones-redes{
+    color: #FFF;
+    font-size: 2.5em;
+}
 
 /* Responsividade */
 
