@@ -235,6 +235,9 @@ header>label {
 .imagem-servicos {
     width: 100%;
     border-radius: 10px;
+}
+
+.imagem-pix {
     align-self: center;
 }
 
@@ -426,17 +429,7 @@ details>div>p {
 
     .content-2>h3, .content-2>ul>li {
         font-size: 1.2rem;
-    }
-
-    .servicos {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-    }
-
-    .servicos-texto {
-        margin: 20px;
-    }
+    }  
 }
 
 @media screen and (max-width: 450px) {
@@ -485,15 +478,5 @@ details>div>p {
 
     .content-2>h3, .content-2>ul>li {
         font-size: 1.2rem;
-    }
-
-    .servicos {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-    }
-
-    .servicos-texto {
-        margin: 20px;
     }
  }
