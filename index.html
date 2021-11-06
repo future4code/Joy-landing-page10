@@ -13,17 +13,17 @@
 <body>
     <!-- Início Header -->
     <header>
-        <a class="logo" href="#"><img class="logo-img" src="img/logo-f4bank.png" alt="Logo F4Bank">F4Bank</a>
+        <a class="logo" onClick="document.getElementById('home').scrollIntoView();" ><img class="logo-img" src="img/logo-f4bank.png" alt="Logo F4Bank">F4Bank</a>
 
         <input type="checkbox" id="menu-bar">
         <label for="menu-bar" class="fas fa-bars"></label>
 
         <nav class="menu-nav">
-            <a class="nav" href="#">Home</a>
-            <a class="nav" href="#">Aplicativo</a>
-            <a class="nav" href="#">Serviços</a>
-            <a class="nav" href="#">Sobre Nós</a>
-            <a class="nav" href="#">FAQ</a>
+            <a  class="nav">Home</a>
+            <a onClick="document.getElementById('aplicativo').scrollIntoView();" class="nav" >Aplicativo</a>
+            <a onClick="document.getElementById('servicos').scrollIntoView();" class="nav" >Serviços</a>
+            <a onClick="document.getElementById('sobre-nos').scrollIntoView();" class="nav" >Sobre Nós</a>
+            <a onClick="document.getElementById('faq').scrollIntoView();" class="nav">FAQ</a>
             <a class="btn">Cadastre-se</a>
             <a class="btn">Login</a>
         </nav>
@@ -31,14 +31,14 @@
     <!-- Fim Header -->
 
     <!-- Começo Section -->
-    <section class="container-home">
+    <section class="container-home" id="home">
         <div class="content-1">
             <h2>O maior banco do Brasil agora totalmente digital</h2>
             <h3>A segurança que você já conhece com a praticidade que você precisa</h3>
         </div>
     </section>
 
-    <section class="container-app">
+    <section class="container-app" id="aplicativo">
         <div class="img-app">
             <img src="img/bg-app.png" alt="Foto mulher segurando celular com o app F4Bank">
         </div>
@@ -94,7 +94,7 @@
         </div>
     </section>
 
-    <section class="container-sobre-nos">
+    <section class="container-sobre-nos" id="sobre-nos">
         <div class="texto-sobre-nos">
             <h1>Sobre Nós</h1>
             <div class="descricao">
@@ -118,7 +118,7 @@
         </div>
     </section>
 
-    <section class="container-faq">
+    <section class="container-faq" id="faq">
         <div class="titulo-faq">
             <h2>Ficou Alguma Dúvida?</h2>
         </div>
@@ -160,13 +160,14 @@
             </details>
     </section>
     <!-- Fim Section -->
+    
     <!-- Início Footer -->
     <footer>
         <div class="icones-redes">
-            <i class="fab fa-linkedin-in"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
+            <a target="blank" href="http://linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+            <a target="blank" href="http://twitter.com"><i class="fab fa-twitter"></i></a>
+            <a target="blank" href="http://facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a target="blank" href="http://instagram.com"><i class="fab fa-instagram"></i></a>
         </div>
         <p>
             F4BANK S.A. – CNPJ 99.985.558/0017-99
@@ -180,10 +181,7 @@
             F4BANK S.A® 2021
         </P>
     </footer>
-
     <!-- Fim Footer -->
-
-   
 </body>
 
 </html>
