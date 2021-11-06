@@ -255,6 +255,7 @@ flex-grow: 1;
     min-height: 100vh;
     padding: 0 9%;
     background-color: #FFF;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -394,9 +395,10 @@ footer{
     width:100%;
 }
 
-.icones-redes{
+.icones-redes>a{
     color: #FFF;
     font-size: 2.5em;
+    margin-left: .5rem;
 }
 
 /* Responsividade */
