@@ -75,6 +75,7 @@ header {
     border-radius: 10px;
     color: #FFF;
     font-weight: 500;
+    border: 1px solid #FF914D;
     cursor: pointer;
 }
 
@@ -307,16 +308,27 @@ details>div>p {
 /* Estilos Sobre Nós */
 .container-sobre-nos{
     text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .descricao{
     background-color: #FF914D;
     border-radius: 10px;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     color: #FFF;
-    padding: 3% 4%;
+    padding: 4% 4%;
     margin-left: 15%;
     margin-right: 15%;
+}
+
+.texto-sobre-nos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .texto-sobre-nos h1{
@@ -333,9 +345,8 @@ details>div>p {
 
 .btn-sobre-nos {
     font-size: 1rem;
-    margin-left: 2.4rem;
     background: #FFF;
-    padding: 8px 16px;
+    padding: 10px 45px;
     border-radius: 10px;
     color: rgb(7, 7, 7);
     font-weight: 500;
@@ -346,9 +357,8 @@ details>div>p {
 
 .btn-sobre-nos:hover {
     font-size: 1rem;
-    margin-left: 2.4rem;
-    background: #FFF;
-    padding: 8px 16px;
+    background: rgb(231, 230, 230);
+    padding: 10px 45px;
     border-radius: 10px;
     color: #FF914D;
     font-weight: 500;
@@ -359,6 +369,7 @@ details>div>p {
 .faca-parte{
     margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: 500;;
 }
 
 /* Estilos Footer */
