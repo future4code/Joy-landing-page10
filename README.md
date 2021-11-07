@@ -5,6 +5,11 @@
 ## Link Surge
 https://f4-bank.surge.sh/
 
+## Desenvolvido por
+- Matheus Lima Ribeiro
+- Marcos Munarim
+- Luiz Felipe Luna Marques
+
 ## Imagens
 ### Header
 ![header-f4](https://user-images.githubusercontent.com/89170972/140594001-d9c48e54-369e-4fd2-a938-fbeb7adf6c0a.jpg)
