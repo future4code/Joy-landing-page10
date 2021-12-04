@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>F4Bank</title>
+</head>
+
+<body>
+    <!-- Início Header -->
+    <header>
+        <a class="logo" onClick="document.getElementById('home').scrollIntoView();" ><img class="logo-img" src="img/logo-f4bank.png" alt="Logo F4Bank">F4Bank</a>
+
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fas fa-bars"></label>
+
+        <nav class="menu-nav">
+            <a  class="nav">Home</a>
+            <a onClick="document.getElementById('aplicativo').scrollIntoView();" class="nav" >Aplicativo</a>
+            <a onClick="document.getElementById('servicos').scrollIntoView();" class="nav" >Serviços</a>
+            <a onClick="document.getElementById('sobre-nos').scrollIntoView();" class="nav" >Sobre Nós</a>
+            <a onClick="document.getElementById('faq').scrollIntoView();" class="nav">FAQ</a>
+            <a class="btn">Cadastre-se</a>
+            <a class="btn">Login</a>
+        </nav>
+    </header>
+    <!-- Fim Header -->
+
+    <!-- Começo Section -->
+    <section class="container-home" id="home">
+        <div class="content-1">
+            <h2>O maior banco do Brasil agora totalmente digital</h2>
+            <h3>A segurança que você já conhece com a praticidade que você precisa</h3>
+        </div>
+    </section>
+
+    <section class="container-app" id="aplicativo">
+        <div class="img-app">
+            <img src="img/bg-app.png" alt="Foto mulher segurando celular com o app F4Bank">
+        </div>
+
+        <div class="content-2">
+            <h2>Mude sua relação com o Banco</h2>
+            <h3>Com o Super App do F4Bank você vai poder fazer tudo que precisa pelo celular, rápido e fácil </h3>
+            <ul>
+                <li><i class="fas fa-check"></i>Transações Bancárias Nacionais e Internacionais</li>
+                <li><i class="fas fa-check"></i>Trânsferencias</li>
+                <li><i class="fas fa-check"></i>Pix</li>
+                <li><i class="fas fa-check"></i>Cartões</li>
+                <li><i class="fas fa-check"></i>Investimentos</li>
+                <li><i class="fas fa-check"></i>Seguros</li>
+                <li><i class="fas fa-check"></i>Empréstimos</li>
+                <li><i class="fas fa-check"></i>E muito mais</li>
+            </ul>
+            <a class="btn" href="">Baixe agora</a>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="servicos">
+            <img class="imagem-servicos" src="img/credit-card-g77ea6ef48_1920.jpg" alt="cartão de crédito">
+            <div class="servicos-texto">
+                <h4>Cartão de Crédito</h4>
+                <p>Sem anuidade, benefícios exclusivos, cashback direto na conta e um programa de pontos que não expiram</p>
+            </div>
+        </div>
+
+        <div class="servicos">
+            <div class="servicos-texto">
+                <h4>PIX</h4>
+                <p>Um novo jeito de fazer pagamentos e transferências. Com ele, é possível fazer transações todos os dias, a qualquer horário, para qualquer banco. E o valor cai na conta em segundos</p>
+            </div>
+            <img class="imagem-servicos img-pix" src="img/InkedComo-usar-o-Pix_LI.jpg" alt="mão segurando um celular com a escrita pix na tela">
+        </div>
+
+        <div class="servicos">
+            <img class="imagem-servicos" src="img/cashback.jpg" alt="celular com a escrita cashback na tela">
+            <div class="servicos-texto">
+                <h4>Cashback</h4>
+                <p>Comprar nas suas lojas favoritas vai ficar mais legal. Cashback em todas as compras no débito ou no crédito. Você pode escolher entre receber o dinheiro direto na conta ou em pontos no nosso programa de fidelidade</p>
+            </div>
+        </div>
+
+        <div class="servicos">
+            <div class="servicos-texto">
+                <h4>Investimentos</h4>
+                <p>Escolha o tipo de investimento ideal, de acordo com seu perfil e seus objetivos. Conte com nossa ajuda pra descobrir o melhor caminho pra você. Invista no Tesouro Direto, em CDBs, na Bolsa de Valores (Brasil e exterior) e também em Criptomoedas (Bitcoin, Ethereum, Dogecoin e muitas outras)</p>
+            </div>
+            <img class="imagem-servicos" src="img/bitcoin-g489820a3d_1920.jpg" alt="moedas empilhadas com o símbolo de bitcoin estampado">
+        </div>
+    </section>
+
+    <section class="container-sobre-nos" id="sobre-nos">
+        <div class="texto-sobre-nos">
+            <h1>Sobre Nós</h1>
+            <div class="descricao">
+            <p>
+                Somos um banco 100% digital somado a tradição de um banco público que a décadas proporciona o melhor para os seus clientes.
+            
+            
+                Um lugar onde modernidade e tradição andam lado a lado.
+            
+            
+                Um banco feito para quem pensa no futuro!
+
+            </p>
+            <p class="faca-parte">
+                Faça parte do f4bank! Abra sua conta.
+            </p>
+            <a class="btn-sobre-nos">Cadastre-se</a>
+            <div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-faq" id="faq">
+        <div class="titulo-faq">
+            <h2>Ficou Alguma Dúvida?</h2>
+        </div>
+
+        <div class="container-details">
+            <details>
+                <summary>Quanto custa ter uma conta no F4Bank?
+                    <i class="fas fa-chevron-right"></i>
+                </summary>
+                <div>Custo zero.
+                    <p>Você não paga nada para ter uma conta no F4Bank.</p>
+                </div>
+            </details>
+            <details>
+                <summary>Quanto custa a anuidade do cartão de crédito F4Bank?
+                    <i class="fas fa-chevron-right"></i>
+                </summary>
+                <div>Anuidade zero.
+                    <p>O cartão de crédito F4Bank não possui taxa de anuidade.</p>
+                </div>
+            </details>
+            <details>
+                <summary>Consigo fazer investimentos no App F4Bank?
+                    <i class="fas fa-chevron-right"></i>
+                </summary>
+                <div>Sim, e com taxa zero.
+                    <p>O App oferece um ambiente prático e intuitivo para investimentos. <br>
+                        Inclusive investimentos em Bitcoin</p>
+                </div>
+            </details>
+            <details>
+                <summary>Quanto pago para fazer transferências para outros bancos?
+                    <i class="fas fa-chevron-right"></i>
+                </summary>
+                <div>As transferências no F4Bank são ilimitadas e gratuitas.
+                    <p>Você não paga nada para transferir entre contas F4Bank
+                        e outros bancos. <br>Além disso, transferências caem na hora.</p>
+                </div>
+            </details>
+    </section>
+    <!-- Fim Section -->
+    
+    <!-- Início Footer -->
+    <footer>
+        <div class="icones-redes">
+            <a target="blank" href="http://linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+            <a target="blank" href="http://twitter.com"><i class="fab fa-twitter"></i></a>
+            <a target="blank" href="http://facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a target="blank" href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>
+            F4BANK S.A. – CNPJ 99.985.558/0017-99
+        </p>
+
+        <p>
+            R. Hungria, 1578 – Jardim Europa, São Paulo – SP, 01455-000
+        </p>
+
+        <P>
+            F4BANK S.A® 2021
+        </P>
+    </footer>
+    <!-- Fim Footer -->
+</body>
+
+</html>
